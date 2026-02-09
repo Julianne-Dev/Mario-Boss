@@ -1,0 +1,48 @@
+.logo-mario {
+    height: 200px;
+}
+
+
+button {
+    color: white;
+    background-color: #C51111;
+    border-radius: 3px;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.mario-luigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-principal {
+    width: 40%;
+}
+
+.caixa-video {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    background: -o-linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7)50%, rgba(10, 12, 16, 0.99) 85%)
+}
+
+video {
+    width: 100vw;
+}
+
+.caixa-mae {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+}
+
