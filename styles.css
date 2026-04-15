@@ -1,4 +1,4 @@
-/* Variáveis para controle de cores e temas */
+
 :root {
     --vermelho: #e52220;
     --amarelo: #fbd000;
@@ -7,7 +7,7 @@
     --glass-bg: rgba(255, 255, 255, 0.1);
 }
 
-/* Classe ativada pelo JavaScript para o Easter Egg */
+
 .dark-mode {
     --vermelho: #6a0dad; /* Roxo Bowser */
     --verde: #1a1a1a;
@@ -33,10 +33,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    perspective: 1500px; /* Cria a profundidade para o efeito 3D */
+    perspective: 1500px; 
 }
 
-/* Background de Vídeo */
+
 .video-container {
     position: fixed;
     width: 100%;
@@ -58,7 +58,7 @@ video {
     transition: background 0.5s ease;
 }
 
-/* Card Principal (Glassmorphism) */
+
 .caixa-principal {
     background: var(--glass-bg);
     backdrop-filter: blur(15px);
@@ -74,7 +74,7 @@ video {
     box-shadow: 0 25px 50px rgba(0,0,0,0.5);
 }
 
-/* Bloco de Interrogação (Botão do Easter Egg) */
+
 .bloco-interrogacao {
     position: absolute;
     top: 30px;
@@ -100,7 +100,7 @@ video {
     50% { transform: translateY(-15px) rotate(5deg); }
 }
 
-/* Tipografia */
+
 .conteudo h1 {
     color: var(--vermelho);
     font-size: 3.5rem;
@@ -116,7 +116,7 @@ video {
     letter-spacing: 1px;
 }
 
-/* Botão Estilizado */
+
 .btn-contato {
     background: var(--verde);
     color: #fff;
@@ -140,7 +140,6 @@ video {
     box-shadow: 0 2px 0 #2d7a1e;
 }
 
-/* Imagem do Mario */
 .mario-img {
     width: 320px;
     filter: drop-shadow(0 20px 40px rgba(0,0,0,0.6));
@@ -152,7 +151,7 @@ video {
     50% { transform: translateZ(100px) translateY(-30px); }
 }
 
-/* Moeda Animada (Partícula) */
+
 .moeda-particula {
     position: absolute;
     width: 35px;
@@ -171,7 +170,6 @@ video {
     100% { transform: translateY(-200px) scale(1.5) rotate(360deg); opacity: 0; }
 }
 
-/* Responsividade */
 @media (max-width: 850px) {
     .caixa-principal { flex-direction: column; text-align: center; padding: 40px; }
     .mario-img { width: 200px; }
